@@ -1,3 +1,45 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color:#3C403D;
+}
+
+.profil {
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    float:left;
+    box-shadow: 0 10px 10px -5px;
+    box-shadow: #666d68;
+
+}
+
+body {
+    max-width: 900px;
+    margin: auto;
+    background-color: #ebece1;
+}
+
+footer{
+    background-color:#3C403D;
+	color:#DADED4;
+    font-size: small;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+    color: #358a3e;
+    text-align: center;
+}
+
+.pravo {
+    color: #358a3e;
+}
